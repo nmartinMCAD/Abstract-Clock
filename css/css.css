@@ -24,10 +24,24 @@ html {
 
 button {
   margin: 0 1rem;
-  font-family: 'Righteous', cursive;
-  padding: 1rem 2rem;
-  -webkit-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.75);
   cursor: pointer;
+  background: none;
+  border: 0;
+  outline: none;
+}
+
+div.textWrapper {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  z-index: 500;
+}
+
+.textWrapper h3 {
+  color: #fff;
+  font-size: 2em;
+}
+
+span#minutes {
+  font-size: 3em;
 }
